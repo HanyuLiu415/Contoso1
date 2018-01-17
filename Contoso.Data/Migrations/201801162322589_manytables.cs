@@ -4,7 +4,9 @@ namespace Contoso.Data.Migrations
     using System.Data.Entity.Migrations;
     
     public partial class manytables : DbMigration
-    {
+    {/// <summary>
+    /// //
+    /// </summary>
         public override void Up()
         {
             DropForeignKey("dbo.Enrollments", "StudentId", "dbo.Student");
